@@ -17,8 +17,13 @@ public class CardDealer
       Card nineClubs = new Card("Clbs", 9);
       nineClubs.setSuit("diamonds");
 
+      //code from netBeans
       Card fourHearts = new Card("Heart", 4);
       fourHearts.setSuit("hearts");
+      
+      //from github
+      Card twoDiamonds = new Card ("diamond",2);
+      System.out.println(twoDiamonds.gitSuit() );
 
    }
 }
