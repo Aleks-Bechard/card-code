@@ -20,10 +20,10 @@ public class CardDealer
       //code from netBeans
       Card fourHearts = new Card("Heart", 4);
       fourHearts.setSuit("hearts");
-      
+
       //from github
-      Card twoDiamonds = new Card ("diamond",2);
-      System.out.println(twoDiamonds.gitSuit() );
+      Card twoDiamonds = new Card("diamond", 2);
+      System.out.println(twoDiamonds.getSuit());
 
    }
 }
